@@ -1,24 +1,20 @@
 <div class="container__big-card">
     <div class="big-card__photo">
        <img 
-       src="https://algaworks-blog.s3.amazonaws.com/wp-content/uploads/Angular.png" 
+       src="{{photoCover}}" 
        alt=""
        height="200px"
       >
     </div >
 
     <div class="big-card__title">
-       <h1><a href="#">Nova versão do Angular</a></h1> 
+       <h1><a href="#">{{cardTitle}}</a></h1> 
     </div>
 
     <div class="big-card__description">
         <p>
             <a href="#">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nunc placerat tempus augue, ut porta dolor viverra non. 
-            Integer sollicitudin, libero a pretium placerat, nibh velit tempor leo, 
-            vehicula ullamcorper orci metus ut leo. Vestibulum ante ipsum primis in faucibus orci 
-            luctus et ultrices posuere cubilia curae. </a>
+            {{cardDescription}} </a>
         </p>
     </div>
 </div>
